@@ -2,14 +2,14 @@ package classNobject;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         
         System.out.println("PUTR DWI AGNESYA (21081010142)");
         
         System.out.println("~~SQUARE~~");
-        System.out.print("Input Panjang Sisi :");
+        System.out.print("Input Length Of Side :");
         int LengthOfSide = input.nextInt();
         square persegi = new square(LengthOfSide);
         System.out.println("Luas Persegi adalah "+persegi.LengthOfSide());
